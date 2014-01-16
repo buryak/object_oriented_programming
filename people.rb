@@ -26,4 +26,5 @@ student = Student.new("Cristina")
 puts student.greet
 
 puts instructor.teach
-puts student.teach
+puts student.teach # The teach method is a method in the Instructor class. 
+# It is out of scope for the Student class. 
